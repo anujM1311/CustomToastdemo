@@ -19,6 +19,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func onClickButton()
+    {
+        self.view.showToast(toastMessage: "Please Enter Password ", duration: 1)
+        self.view.showToast(toastMessage: "Please Enter Password. this is my server side error 2line.", duration: 10)
+    }
 
 
 }

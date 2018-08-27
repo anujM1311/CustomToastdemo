@@ -15,6 +15,7 @@
 		7B7A7B58212C3ED4005A22BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7A7B56212C3ED4005A22BB /* LaunchScreen.storyboard */; };
 		7B7A7B63212C3ED4005A22BB /* CustomToastdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7A7B62212C3ED4005A22BB /* CustomToastdemoTests.swift */; };
 		7B7A7B6E212C3ED4005A22BB /* CustomToastdemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7A7B6D212C3ED4005A22BB /* CustomToastdemoUITests.swift */; };
+		7B7A7B7C212C3FAF005A22BB /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7A7B7B212C3FAF005A22BB /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7B7A7B69212C3ED4005A22BB /* CustomToastdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomToastdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7A7B6D212C3ED4005A22BB /* CustomToastdemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToastdemoUITests.swift; sourceTree = "<group>"; };
 		7B7A7B6F212C3ED4005A22BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B7A7B7B212C3FAF005A22BB /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				7B7A7B56212C3ED4005A22BB /* LaunchScreen.storyboard */,
 				7B7A7B59212C3ED4005A22BB /* Info.plist */,
 				7B7A7B51212C3ED2005A22BB /* CustomToastdemo.xcdatamodeld */,
+				7B7A7B7B212C3FAF005A22BB /* File.swift */,
 			);
 			path = CustomToastdemo;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B7A7B4D212C3ED2005A22BB /* ViewController.swift in Sources */,
+				7B7A7B7C212C3FAF005A22BB /* File.swift in Sources */,
 				7B7A7B4B212C3ED2005A22BB /* AppDelegate.swift in Sources */,
 				7B7A7B53212C3ED2005A22BB /* CustomToastdemo.xcdatamodeld in Sources */,
 			);
